@@ -1,0 +1,138 @@
+*{
+    /*border: 1px dashed red;*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+    font-weight: 200;
+    color:white;
+    box-sizing: border-box;
+}
+
+p{
+    display: table-cell;
+    margin: 0 0;
+   display:table-cell;
+   vertical-align: bottom;
+
+}
+
+body{
+    background-image: url("./Tunnel_12.14_by_thejunglephoto.pw.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+/*Header */
+nav{
+    width:75%;
+    margin: 3% auto;
+    display: flex;
+}
+
+nav h1{
+    width:50%;
+    font-size: 30px;
+}
+
+.nav1 {
+    width:50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.nav1 a{
+    font-size: 150%;
+    margin-right: 4%;
+    
+}
+
+/*Blocks */
+.blockm{
+    width:75%;
+    margin: 3% auto;
+    display: flex;
+   justify-content: center;
+}
+
+
+.block1, .block2, .block3 {
+    width:33%;
+    display: flex;
+    flex-flow: row wrap;
+    
+    
+}
+
+.block1, .block3{
+    justify-content: space-between;
+
+}
+
+.block2-1{
+    align-items: stretch;
+    width:100%;
+    margin: 0 3%;
+    display: table;
+    
+}
+
+.block1-1, .block1-2, .block3-2, .block3-3 {
+    width:47.2%;
+    min-height: 15vh;
+    display: table;
+    
+}
+
+.block1-3, .block3-1 {
+    width:100%;
+    min-height: 15vh;
+    display: table;
+    
+   
+}
+
+.block1-3{
+    margin-top: 3%;
+}
+.block3-1{
+margin-bottom: 3%;
+}
+
+/* Footer*/
+
+footer{
+    width:75%;
+    min-height: 8vh;
+    margin: 3% auto;
+    background-color: azure;
+    opacity: .5;
+}
+
+
+/*colors*/
+.block1-1{
+background-color: 
+#6bb0a3;
+}
+.block1-2{
+    background-color: #6aae8d;
+}
+.block1-3{
+    background-color: #ba5848;
+}
+.block2-1{
+    background-color: #4aa0c8;
+
+}
+.block3-1{
+    background-color: #c8517a;
+
+}
+.block3-2{
+    background-color: #cc784a;
+}
+.block3-3{
+    background-color: #d09342;
+}

@@ -1,0 +1,31 @@
+*{
+    border: 1px dashed red;
+}
+.main{
+    height:100vh;
+    width: 97vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: .5fr 1fr 1fr 1fr;
+    grid-template-areas: "c1 c1 c1 c1" 
+                         "c2 c2 c2 c3"     
+                         "c2 c2 c2 c3" 
+                         "c4 c4 c4 c3"
+                         "c4 c4 c4 c3";
+}
+
+.child1{
+    grid-area:c1;
+}
+
+.child2{
+ grid-area: c2;
+}
+
+.child3{
+grid-area: c3;
+}
+
+.child4{
+grid-area: c4;
+}
